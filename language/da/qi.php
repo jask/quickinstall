@@ -68,6 +68,7 @@ $lang = array_merge($lang, array(
 	'BOARDS_DELETED' => 'Boards blev slettet.',
 	'BOARDS_DELETED_TITLE' => 'Slettede boards',
 	'BOARDS_DIR' => 'Mappe til boards',
+	'BOARDS_DIR_MISSING' => 'Mappen %s eksisterer ikke eller der er ikke skrivetilladelse til den.',
 	'BOARDS_DIR_EXPLAIN' => 'Den mappe hvor dine boards vil blive oprettet. PHP behøver skrivetilladelse til denne.',
 	'BOARDS_LIST' => 'Liste over boards',
 	'BOARDS_NOT_WRITABLE' => 'Der er ikke skrivetilladelse til board-mappen.',
