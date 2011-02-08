@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 	'UNCHECK_ALL' => 'Fravælg alle',
 	'UP_TO_DATE' => 'Big brother fortæller at du er up to date.',
 	'UP_TO_DATE_NOT' => 'Big brother fortæller at du ikke er up to date.',
-	'UPDATE_CHECK_FAILED' => 'Big brother’s versionkontrol fejlede.',
+	'UPDATE_CHECK_FAILED' => 'Big brothers versionkontrol fejlede.',
 	'UPDATE_TO' => '<a href="%1$s">Updater til version %2$s.</a>',
 
 	'YES' => 'Ja',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 		'Tak til phpBB-communitiet, phpBB.com, startrekguide.com og phpBBModders.net!',
 	)) . '</li></ul>',
 	'WHO_WHEN' => 'Hvem? Hvornår?',
-	'WHO_WHEN_EXPLAIN' => 'phpBB3 QuickInstall blev udviklet af Igor “eviL&lt;3” Wiedler i sommeren 2007. Igor omskrev softwaren delvist i marts 2008.<br />Siden marts 2010 vedligeholdes projektet af Jari “Tumba25” Kanerva.',
+	'WHO_WHEN_EXPLAIN' => 'phpBB3 QuickInstall blev udviklet af Igor “eviL&lt;3” Wiedler i sommeren 2007. Igor omskrev softwaren delvist i marts 2008.<br />Siden marts 2010 vedligeholdes projektet af Jari “tumba25” Kanerva.',
 	'WHY' => 'Hvorfor?',
 	'WHY_EXPLAIN' => 'Hvis du eksperimenterer meget med modding (eller udvikler Mods), har du sikkert også erfaret at det ikke er særlig praktisk at indeholde alle MODs i en enkelt phpBB-installation. Det giver det bedste overblik at have separate installationer til hvert MOD. Det er imidlertid tidskrævende og noget besværligt at skulle hele processen igennem, med filkopiering og installation for hvert eksperiment. QuickInstall blev skabt for at forenkle dette.',
 ));
