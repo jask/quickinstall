@@ -75,6 +75,9 @@ $lang = array_merge($lang, array(
 	'BOARDS_URL' => 'Boardets URL prefix',
 	'BOARDS_URL_EXPLAIN' => 'URL prefix til boardets mappe. Specificerer du herover en absolut boardmappe, kan det medfører at du skal angive et domæne og/eller en sti som viser hvor boardmappen befinder sig. Er boardmappen en relativ sti, kan den kopieres ind her.',
 
+	'CACHE_DIR' => 'Cache-mappe',
+	'CACHE_DIR_EXPLAIN' => 'Den mappe hvor quickinstall opbevarer forskellige filer. PHP skal have skrivetilladelse til denne.',
+	'CACHE_DIR_MISSING' => 'Mappen %s findes ikke, eller der er ikke skrivetilladelse til denne.',
 	'CACHE_NOT_WRITABLE' => 'Der er ikke skrivetilladelse til cache-mappen.',
 	'CHANGELOG' => 'Ændringlog',
 	'CHECK_ALL' => 'Kontroller alle',
@@ -122,6 +125,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_ENABLE_EXPLAIN' => 'Aktiver emails for hele boardet. For et lokalt testboard vil indstillingen normalt være inaktiv, med mindre du vil teste emails.',
 	'ENABLED' => 'Aktiv',
 
+	'FUNCTIONS_MODS_MISSING' => 'includes/automod/functions_mods.php blev ikke fundet.',
+
 	'GENERAL_ERROR' => 'Generel Fejl',
 	'GRANT_PERMISSIONS' => 'Tildel yderligere tilladelser',
 	'GRANT_PERMISSIONS_EXPLAIN' => '(eksempelvis 0060 for gruppe read/write)',
@@ -147,10 +152,10 @@ $lang = array_merge($lang, array(
 	'MIN' => 'Min',
 
 	'NEED_EMAIL_DOMAIN' => 'Der behøves et email domæne for at oprette testbrugere',
-	'NEED_WRITABLE' => 'For at QuickInstall skal fungerer skal board- og cache-mapper være skrivbare.<br />Der skal kun kunne skrives til filen qi_config.php skrivbar under installationen af QuickInstall.',
+	'NEED_WRITABLE' => 'For at QuickInstall kan fungere korrekt, skal board- og cache-mapper være skrivbare.<br />Der skal kun kunne skrives til filen qi_config.php under installationen af QuickInstall.',
 	'NO' => 'Nej',
 	'NO_ALT_ENV' => 'Angivne alternative installation eksisterer ikke.',
-	'NO_AUTOMOD' => 'AutoMOD er ikke tilstede i sources-mappen. Du skal downloade AutoMOD og kopiere rod-mappen til sources/automod, og omdøbe root ti automod.',
+	'NO_AUTOMOD' => 'AutoMOD er ikke tilstede i sources-mappen. Du skal downloade AutoMOD og kopiere indholdet af rod-mappen til sources/automod. Anvender du AutoMOD 1.0.0 er det indholdet af upload-mappen.',
 	'NO_BOARDS' => 'Ingen boards installeret.',
 	'NO_DB' => 'Ingen database valgt.',
 	'NO_IMPACT_WIN' => 'Indstillingen har ingen indflydelse på Windows-systemer ældre end Win7.',
